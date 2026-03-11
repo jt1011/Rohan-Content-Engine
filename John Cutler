@@ -1,0 +1,1143 @@
+# John Cutler Content Intelligence Playbook
+
+## Purpose
+
+This is a working playbook built from the uploaded CSV of John Cutler's LinkedIn posts.
+
+It is not a bio.
+It is not generic LinkedIn advice.
+It is a pattern-recognition document built from what actually performed in his feed.
+
+Use it when you want to:
+- write posts in John Cutler's strongest style
+- understand why his best content works
+- build a content engine for systems thinking, product, transformation, and leadership critique
+- turn raw ideas into sharp, high-recognition LinkedIn posts
+
+---
+
+## Source base
+
+Analyzed source:
+- File name: `John Puller .csv`
+- Author handle in the dataset: `johnpcutler`
+- Usable captioned posts: 660
+- Total rows in source file: 800
+- Rows without caption text ignored: 140
+
+Fields reviewed:
+- Hook
+- Full Caption
+- Reactions
+- Comments
+- Reposts
+- Score
+- Media Type
+- Date
+- Post URL
+
+### Scoring notes
+
+This playbook gives extra weight to:
+- the top 10 percent of posts by score
+- repeated themes that show up across multiple winners
+- differences between high-performing and lower-performing posts
+- format behavior by media type
+
+### Performance snapshot
+
+- Median score: 541
+- Mean score: 1168.1
+- 90th percentile threshold: 2519.5
+- 95th percentile threshold: 3982.85
+- Top 10 percent post count: 66
+- Top 5 percent post count: 33
+
+### Format snapshot
+
+- Image posts average score: 1364.1
+- Document posts average score: 1123.9
+- Video posts average score: 679.1
+- Article posts average score: 538.5
+
+Top 10 percent distribution:
+- image: 89.4%
+- document: 3.0%
+- video: 1.5%
+- article: 6.1%
+
+### Structural snapshot
+
+Top-performing posts are not shorter.
+They are more layered.
+
+Top 10 percent averages:
+- hook length: 33.8 words
+- caption length: 168.9 words
+- bullet lines: 2.3
+- paragraph count: 17.0
+
+Rest of feed averages:
+- hook length: 33.5 words
+- caption length: 101.7 words
+- bullet lines: 0.7
+- paragraph count: 8.0
+
+Core takeaway:
+John's winners are not tiny hot takes.
+They are developed arguments broken into highly scannable chunks.
+
+---
+
+# 1. Executive summary
+
+## The core truth
+
+John does not win by sounding polished, optimistic, or brand-safe.
+
+He wins by doing two things exceptionally well:
+
+1. Naming the real organizational problem underneath the visible problem  
+2. Satirizing executive nonsense so accurately that people instantly recognize their company in it
+
+This account is not a career funnel.
+It is not motivational product content.
+It is not "thought leadership" in the usual LinkedIn sense.
+
+It is **organizational sensemaking for operators who are tired of bullshit**.
+
+## The real formula
+
+John's strongest posts usually follow one of two modes:
+
+### Mode A: Serious systems critique
+- open with a blunt diagnosis
+- reframe the problem
+- explain the hidden mechanism
+- show where leaders fool themselves
+- close with a principle, a sharper lens, or a lightweight question
+
+### Mode B: Satirical corporate parody
+- mirror current executive language
+- exaggerate it just enough
+- expose the incentives underneath it
+- make people laugh, then wince
+- let recognition do the work
+
+That is the engine.
+
+Not inspiration.
+Not hustle.
+Not generic product frameworks.
+
+Recognition plus diagnosis.
+
+---
+
+# 2. What the audience actually wants
+
+John's audience is not looking for beginner PM tips.
+
+They are looking for language that explains the dysfunction they already feel.
+
+## Core audience segments
+
+### 1. Senior product and engineering leaders
+People dealing with planning, prioritization, dependencies, org design, and executive pressure.
+
+What they want:
+- better language for complex problems
+- validation that the problem is structural, not personal
+- sharper ways to talk to leadership
+- alternatives to cargo-cult operating models
+
+### 2. Transformation leaders
+People trying to change how big, messy organizations work.
+
+What they want:
+- diagnosis over slogans
+- nuance over imported playbooks
+- frameworks that work in complex systems
+- a better understanding of change resistance
+
+### 3. Product thinkers and systems nerds
+People who care deeply about product operations, planning, value, teams, and organizational behavior.
+
+What they want:
+- clarity
+- depth
+- better mental models
+- smart critique of shallow management trends
+
+### 4. Exhausted operators inside weird companies
+People living through AI panic, layoffs, performative urgency, or executive theater.
+
+What they want:
+- someone to say the quiet part out loud
+- proof they are not crazy
+- a way to interpret what is happening
+- some dark humor to survive it
+
+## Emotional drivers behind the feed
+
+The audience responds when the content reduces one of these tensions:
+- confusion
+- gaslighting
+- organizational hypocrisy
+- false precision
+- performative leadership
+- cargo-cult process
+- AI panic
+- transformation theater
+
+This feed does not sell aspiration.
+It sells recognition and relief.
+
+---
+
+# 3. The big strategic insight
+
+John has **two strong content modes**, not one.
+
+## Mode A: Serious systems diagnosis
+
+This is where he explains:
+- why dependencies are often prioritization problems
+- why estimation debates miss the real issue
+- why transformation advice from growth-tech companies does not translate
+- why management culture shapes work more than individuals do
+- why over-specifying process kills autonomy
+- why feature factories "work" until they stop working
+
+These posts win because they reveal hidden structure.
+
+They do not just say:
+"This is bad."
+
+They say:
+"This looks like X, but it is actually Y."
+
+That reframe is the value.
+
+## Mode B: Satirical executive parody
+
+This is where he writes:
+- fake AI panic memos
+- "vibe leadership"
+- parody startup operating rules
+- exaggerated management nonsense
+- absurd but painfully believable executive behavior
+
+These posts win because the satire is close to reality.
+
+He is not doing random comedy.
+He is doing **compressed diagnosis through parody**.
+
+That is why the audience shares it.
+It feels funny because it feels true.
+
+---
+
+# 4. What actually works
+
+## A. Hidden-problem reframes
+
+This is one of the strongest patterns in the entire feed.
+
+John often takes a visible complaint and replaces it with the real underlying issue.
+
+Examples of the pattern:
+- your dependency problem is largely a prioritization problem
+- simplification conversations are often cost-cutting conversations in disguise
+- process often exists to avoid discipline, not create it
+- outcomes discourse becomes nonsense when it ignores causality in complex systems
+- digital transformation advice breaks when copied into the wrong context
+
+Why this works:
+- it respects the reader's intelligence
+- it gives them better language
+- it cuts through superficial diagnosis
+- it feels like hard-won pattern recognition
+
+## B. False-precision critique
+
+Another major winner.
+
+John performs very well when attacking:
+- fake certainty
+- over-commitment rituals
+- precision theater in roadmaps, estimates, and plans
+- stack-ranking nonsense
+- fantasy planning detached from history
+
+Why it works:
+- almost every operator has lived this
+- it is concrete, not abstract
+- it lets readers feel seen
+- it gives leaders a saner alternative
+
+## C. AI panic, AI posturing, and executive anxiety
+
+This theme performs extremely well.
+
+Not "AI is changing everything."
+That is too generic.
+
+What works instead:
+- AI as theater
+- AI as pressure transfer from leaders to employees
+- AI as investor signaling
+- AI as a new excuse for layoffs, urgency, and ideology
+- AI as something useful only when grounded in real work
+
+Why it works:
+- it captures the present moment
+- it gives readers emotional language for what they are seeing
+- it cuts through both blind hype and lazy cynicism
+
+## D. Leadership and management culture critique
+
+Strong recurring pattern.
+
+Examples:
+- middle management being scapegoated
+- leadership copying the wrong playbook
+- management culture rewarding the wrong things
+- leaders confusing control with clarity
+- strategic decisions being less disciplined than technical decisions
+
+Why it works:
+- it names power structures directly
+- it helps readers stop personalizing systemic problems
+- it feels brave without being empty
+
+## E. Satire and parody posts
+
+This is not fluff content.
+It is one of the sharpest weapons in the feed.
+
+Strong examples:
+- fake AI memos
+- "vibe leadership"
+- absurd all-in startup parody
+- fake corporate 2025 vibes guides
+- parody book formulas for leaders
+
+Why it works:
+- fast recognition
+- highly shareable
+- emotionally sticky
+- punches up at management theater
+- creates belonging among people who "get it"
+
+## F. Lightweight operational principles
+
+John also wins with posts that sound like simple advice, but are rooted in deep systems thinking.
+
+Examples:
+- only define the small number of things that truly need to be global
+- release notes are an easy honesty mechanism
+- start with rituals and interactions before over-codifying
+- progressively disclose roadmap detail
+- autonomy requires a few clear interfaces, not endless standardization
+
+Why it works:
+- practical
+- portable
+- not overbuilt
+- easy to share with teams
+
+## G. Book and discourse critique
+
+This is a smaller but important pattern.
+
+He sometimes reacts to:
+- famous product books
+- big-name thinkers
+- public debates on social media
+- widely accepted organizational ideas
+
+These posts work best when he is not just reacting.
+They work when he uses the reaction to expose a bigger pattern.
+
+---
+
+# 5. What separates the winners from average posts
+
+This is the most important section in the playbook.
+
+The best posts are not just "well written."
+They are built differently.
+
+## 1. They name the real problem, not the visible complaint
+
+Average version:
+- dependencies are bad
+- planning is hard
+- AI is changing things
+
+Winning version:
+- dependencies are often prioritization failures
+- planning is hard because people worship false precision
+- AI is being used to transfer anxiety and ideology through the org
+
+This deeper diagnosis is the real content advantage.
+
+## 2. They create instant recognition
+
+The strongest posts make readers think:
+- that is exactly my company
+- I have seen that meeting
+- I know that leader
+- that is the real reason this happens
+- finally, someone said it clearly
+
+Recognition is the primary engagement engine.
+
+## 3. They make one point, but layer it well
+
+John's winners are usually about one central idea.
+
+But they are layered through:
+- a scene
+- a dialogue
+- a list
+- a principle
+- a systems explanation
+- a satirical mirror
+
+Average posts may have a decent point.
+Winning posts give the point texture.
+
+## 4. They are more developed, not just more opinionated
+
+Top posts are significantly longer and more broken up than the rest.
+
+That matters.
+
+This account does not win by throwing out a one-line provocation and leaving.
+It wins by building out the case enough that readers can live inside it.
+
+## 5. They use sharper forms
+
+High-performing forms include:
+- fake dialogue
+- "here's why" explanatory frame
+- blunt assertion followed by scenario
+- satirical list
+- mini-framework
+- diagnostic contrast
+- "you are not crazy" validation post
+
+Weak forms include:
+- event announcements
+- generic recommendations
+- low-context surveys
+- thin promotion
+- networking asks without insight
+
+## 6. They often rely on images
+
+The feed is clearly image-led.
+
+That means:
+- the first frame matters
+- the caption should support a visual or slide-worthy idea
+- the post should feel compressible into a diagram, chart, mock memo, or simple visual
+
+---
+
+# 6. Hook library
+
+These are the hook families that match John's strongest patterns.
+
+## Hook family 1: blunt reframe
+
+Use when you want to replace the surface problem with the real one.
+
+Templates:
+- `Your [visible problem] is largely a [deeper problem] problem. Full stop.`
+- `The problem is not [surface issue]. It is [real issue].`
+- `[Thing people complain about] is often just [deeper issue] in disguise.`
+- `What looks like [X] is usually [Y].`
+
+Examples:
+- Your dependency problem is largely a prioritization problem.
+- What looks like simplification is often just cost pressure with better branding.
+
+## Hook family 2: sharp observation
+
+Use when the post opens with a painful truth.
+
+Templates:
+- `The irony of [behavior] when [larger truth] is hard to ignore.`
+- `Feature factories work. Until they don't.`
+- `Middle management is getting crushed in the current environment.`
+- `People often assume [nice idea]. But in practice, [hard truth].`
+
+Examples:
+- The irony of chasing AI productivity gains while burning most capacity on low-value work is hard to miss.
+- Process is often used to avoid discipline, not create it.
+
+## Hook family 3: dialogue scene
+
+Use when you want to dramatize organizational confusion.
+
+Templates:
+- `"We need to [vague goal]."`
+- `Me: "Oh, you mean [real interpretation]?"`
+- `"No, I mean..."`
+
+Examples:
+- "We have to simplify."
+- Me: "Oh, you mean reduce priorities?"
+- "No..."
+
+Why it works:
+- very recognizable
+- easy to read
+- exposes contradiction without preaching
+
+## Hook family 4: validation post
+
+Use when the audience is feeling gaslit or disoriented.
+
+Templates:
+- `You're not crazy. Things are weird out there.`
+- `If this feels off to you, it is off.`
+- `You are not imagining the tension.`
+- `It is not just you. The incentives are broken.`
+
+Why it works:
+- emotional relief
+- strong recognition
+- high comment energy
+
+## Hook family 5: satirical corporate parody
+
+Use when you want to expose nonsense through exaggeration.
+
+Templates:
+- `Forget [trend]. Enter [more absurd trend].`
+- `Here's the guide to [year] vibes.`
+- `How to become the perfect [executive stereotype].`
+- `Leaked memo: [absurd but believable premise]`
+
+Examples:
+- Forget vibe coding. Enter vibe leadership.
+- Here's the guide to 2025 vibes.
+- This leaked memo has me re-thinking my existence.
+
+## Hook family 6: framework opener
+
+Use when teaching a systems principle.
+
+Templates:
+- `Here is how [most companies / strong teams] could [better outcome].`
+- `A short mini-playbook on [topic].`
+- `Great [teams / leaders] know how to [principle].`
+- `Annual planning sounds hard, but it really comes down to a few questions.`
+
+Why it works:
+- clean promise
+- portable insight
+- strong save potential
+
+## Hook family 7: contrast hook
+
+Use when comparing two contexts or models.
+
+Templates:
+- `The leadership challenge in [context A] is nothing like [context B].`
+- `What works in [environment A] often fails in [environment B].`
+- `The wrong playbook is being applied to the wrong game.`
+
+Why it works:
+- signals nuance
+- attracts more senior readers
+- creates authority without jargon
+
+---
+
+# 7. Core post formulas
+
+## Formula A: hidden-problem diagnosis
+
+Best for:
+- prioritization
+- planning
+- dependencies
+- org design
+- transformation
+- management behavior
+
+Structure:
+1. Open with the reframe
+2. Name the surface complaint
+3. Show why that complaint is incomplete
+4. Reveal the deeper structural cause
+5. Give a better principle or lens
+6. End lightly, often without a hard CTA
+
+Skeleton:
+
+`Your [surface problem] is largely a [deeper problem] problem.`
+
+On the surface, it looks like:
+- [visible issue]
+- [visible issue]
+- [visible issue]
+
+But underneath, what is actually happening is:
+- [structural cause]
+- [structural cause]
+- [structural cause]
+
+That is why treating this as a [surface problem] problem keeps failing.
+
+The better question is:
+`[new diagnostic question]`
+
+## Formula B: dialogue diagnosis
+
+Best for:
+- vague leadership slogans
+- executive contradiction
+- simplification theater
+- transformation confusion
+
+Structure:
+1. Start with a quote
+2. Respond with increasingly specific interpretations
+3. Let each response expose a deeper contradiction
+4. Let the original speaker reject each one
+5. Reveal the real motive at the end
+
+Skeleton:
+
+`"We need to [vague objective]."`
+
+Me:
+`"Oh, you mean [smart interpretation]?"`
+
+`"No."`
+
+Me:
+`"So you mean [another smart interpretation]?"`
+
+`"Not exactly."`
+
+Eventually:
+`"Ah. So this is really about [real issue]."`
+
+Why this works:
+It lets the reader experience the confusion rather than just be told about it.
+
+## Formula C: satirical memo or list
+
+Best for:
+- AI panic
+- executive theater
+- org nonsense
+- trend critique
+
+Structure:
+1. Pick a real behavior people are already noticing
+2. Push it 15 to 20 percent further
+3. Keep the exaggeration believable
+4. Use bullets or pseudo-instructions
+5. Let the satire reveal the incentives
+
+Skeleton:
+
+`Forget [trend]. Enter [absurd but recognizable variation].`
+
+How to do it:
+1. [fake instruction]
+2. [fake instruction]
+3. [fake instruction]
+4. [fake instruction]
+
+The post should feel like parody, but also like something a reader half-believes their company might do.
+
+## Formula D: systems principle framework
+
+Best for:
+- planning
+- roadmaps
+- autonomy
+- interfaces
+- metrics
+- rituals
+
+Structure:
+1. Open with a principle
+2. Explain the mistake most companies make
+3. Break the better approach into 3 to 6 points
+4. Keep each point concrete
+5. End with a practical reminder
+
+Skeleton:
+
+`For teams to work more autonomously, a company must decide on the small number of things that must be global.`
+
+You do need:
+- [global interface]
+- [global interface]
+- [global interface]
+
+You do not need:
+- [over-standardized item]
+- [over-standardized item]
+- [over-standardized item]
+
+The mistake is over-specifying everything.
+
+The goal is clearer interfaces, not more process.
+
+## Formula E: context contrast
+
+Best for:
+- transformation
+- leadership
+- comparing org types
+- debunking imported playbooks
+
+Structure:
+1. Name two contexts
+2. Explain how people wrongly flatten them
+3. Show why the advice breaks when transplanted
+4. Name the real challenge in each
+5. End with the larger implication
+
+Skeleton:
+
+`The challenge in [context A] is nothing like the challenge in [context B].`
+
+What works in one may fail in the other because:
+- [reason]
+- [reason]
+- [reason]
+
+The problem is not bad intent.
+It is the wrong playbook for the wrong game.
+
+## Formula F: validation and sensemaking
+
+Best for:
+- layoffs
+- AI chaos
+- internal politics
+- weird company environments
+
+Structure:
+1. Validate the reader's feeling
+2. Name the contradictions they are seeing
+3. Show why the contradictions coexist
+4. Avoid forced optimism
+5. End with a simple truth
+
+Skeleton:
+
+`You're not crazy. Things are weird out there.`
+
+You are seeing:
+- [contradiction]
+- [contradiction]
+- [contradiction]
+
+That is because the system is rewarding multiple conflicting things at once.
+
+You are not imagining it.
+
+---
+
+# 8. Voice and writing DNA
+
+## Core voice blend
+
+John's strongest voice is a blend of:
+- systems thinker
+- operator
+- skeptical anthropologist of organizations
+- dark humorist
+- anti-bullshit translator
+
+This voice is not:
+- shiny
+- inspirational
+- polished for the sake of polish
+- fake-neutral
+- corporate-safe
+
+## What makes the writing feel like John
+
+### 1. He writes from lived observation
+The content feels like it came from many real meetings, not from theory.
+
+### 2. He re-labels the problem
+He is constantly taking a bad label and replacing it with a more honest one.
+
+### 3. He is skeptical of management theater
+Not skeptical in a lazy, cynical way.
+Skeptical in a precise, pattern-based way.
+
+### 4. He uses dark humor strategically
+The joke is never random.
+The joke is the diagnosis.
+
+### 5. He keeps one foot in practicality
+Even when the post is critical, there is usually a better lens, a better principle, or a better question underneath it.
+
+## Tone target
+
+Aim for this blend:
+- 35% systems diagnosis
+- 25% operator realism
+- 20% skeptical critique
+- 20% dry satire or dark humor
+
+---
+
+# 9. Formatting and packaging rules
+
+## Format priority
+
+This is an image-led account.
+
+Best practice:
+- write ideas that could live as slides, diagrams, memos, fake screenshots, or simple visual posters
+- let the first line carry a strong thesis
+- make every paragraph feel skimmable
+
+## Paragraph style
+
+Use:
+- short to medium paragraphs
+- lots of line breaks
+- bullets when teaching or satirizing
+- clear shifts between setup, diagnosis, and implication
+
+Avoid:
+- giant blocks
+- fluffy intros
+- five different ideas in one paragraph
+- smooth corporate transitions
+
+## Length guidance
+
+This feed does not need ultra-short posts.
+
+Good range:
+- 120 to 240 words for most diagnostic posts
+- 150 to 280 words for stronger layered arguments
+- shorter only when the punchline is doing all the work
+
+## Bullets matter
+
+Top-performing posts use more list structure than the rest of the feed.
+
+Use bullets for:
+- fake instructions
+- examples
+- hidden causes
+- what to do vs what not to do
+- specific questions
+
+## Rhythm rule
+
+Strong John posts often move like this:
+- claim
+- explanation
+- scene or example
+- sharper explanation
+- principle
+
+That rhythm matters.
+
+---
+
+# 10. CTA behavior
+
+John's strongest posts usually do not rely on aggressive CTAs.
+
+This is important.
+
+The feed builds authority by making the reader think, nod, laugh, or share.
+Not by constantly funneling them.
+
+## Strong CTA types for this style
+
+### 1. Light discussion prompt
+Examples:
+- What do you see most often?
+- What would you add?
+- Where have you seen this play out?
+
+### 2. Observational question
+Examples:
+- What are folks seeing?
+- Who is thriving there, and why?
+- What is invisible work in your company that no one acknowledges?
+
+### 3. No CTA at all
+This works when the post is strong enough to stand on its own.
+
+Many of John's best posts do not need a conversion move.
+
+## Weak CTA types for this style
+
+Avoid:
+- needy engagement bait
+- fake urgency
+- hard sell pivots
+- overly polished personal-brand endings
+- motivational wrap-ups that flatten the argument
+
+---
+
+# 11. What underperforms
+
+These patterns showed up as weaker or less reliable.
+
+## 1. Event announcements
+Examples:
+- speaking tomorrow
+- come meet up
+- live session starting soon
+
+Why they underperform:
+- low recognition value
+- low diagnostic value
+- mostly relevant only to a small slice of the audience
+
+## 2. Generic recommendations or shout-outs
+Examples:
+- highly recommended
+- fun episode
+- check this out
+
+Why they underperform:
+- too thin
+- not enough original insight
+- weak standalone value
+
+## 3. Survey asks and research requests
+Examples:
+- quick survey
+- help needed
+- looking for input
+
+Why they underperform:
+- they ask before giving
+- low emotional charge
+- weak public payoff
+
+## 4. Article links without enough native payoff
+Some articles did well, but in general article format is weaker.
+
+Why it underperforms:
+- more friction
+- less shareable
+- not as visually sticky
+- readers have to leave the feed
+
+## 5. Vague promo or product mentions
+Why they underperform:
+- the feed works on recognition and depth
+- thin promo breaks the contract
+
+---
+
+# 12. Strategic themes to protect
+
+If you were building a content engine around this account, these are the pillars worth preserving.
+
+## Pillar 1: org pathology diagnosis
+Examples:
+- dependencies
+- prioritization
+- planning failure
+- coordination overload
+- management culture
+
+## Pillar 2: AI panic and executive theater
+Examples:
+- fear transfer
+- panic memos
+- ideological pressure
+- performative urgency
+- AI as excuse-making
+
+## Pillar 3: systems-thinking for product and transformation
+Examples:
+- operating models
+- autonomy
+- interfaces
+- roadmaps
+- measurement
+- change dynamics
+
+## Pillar 4: leadership critique
+Examples:
+- middle management scapegoating
+- shallow simplification talk
+- wrong playbooks
+- decision-making without discipline
+- role and power dynamics
+
+## Pillar 5: satire and parody
+Examples:
+- fake executive memos
+- corporate vibes guides
+- mock startup rules
+- parody leadership advice
+
+## Pillar 6: validation for confused operators
+Examples:
+- "you're not crazy" posts
+- naming the weirdness
+- helping people interpret contradictions
+- turning anxiety into sharper diagnosis
+
+---
+
+# 13. Reusable hook templates
+
+1. `Your [surface problem] is largely a [deeper problem] problem. Full stop.`
+2. `The irony of [behavior] when [larger truth] is hard to miss.`
+3. `Feature factories work. Until they don't.`
+4. `"We need to [vague goal]."`
+5. `Me: "Oh, you mean [real interpretation]?"`
+6. `You're not crazy. Things are weird out there.`
+7. `Forget [trend]. Enter [absurd but recognizable variation].`
+8. `Here is how [most companies / strong teams] could [better outcome].`
+9. `The challenge in [context A] is nothing like [context B].`
+10. `People often assume [nice idea]. But in practice, [hard truth].`
+11. `If people were honest about [artifact], it would say [truth].`
+12. `Annual planning sounds hard, but it really comes down to [few questions].`
+
+---
+
+# 14. Voice rules
+
+## Do
+
+- sound like someone who has seen the same dysfunction many times
+- reframe surface complaints into deeper structural causes
+- use satire when it reveals truth, not just for laughs
+- write with sharpness and clarity
+- keep a strong thesis throughout the post
+- use examples, scenes, or fake dialogue to make the problem visible
+- respect complexity without hiding behind jargon
+- write for people inside messy organizations
+- let readers feel recognized
+
+## Do not
+
+- write generic product coaching content
+- sound motivational for the sake of sounding nice
+- flatten everything into "best practices"
+- act like one framework solves everything
+- write shallow AI hype
+- over-explain the joke in satire posts
+- end with soft, polished personal-brand fluff
+- rely on buzzwords
+- sanitize the tension out of the post
+
+---
+
+# 15. What to always avoid
+
+1. Thin event promo  
+2. Generic shout-outs with no original insight  
+3. Survey asks as standalone posts  
+4. Overly polished article-style posts with weak native payoff  
+5. Abstract "leadership" content without a real mechanism underneath  
+6. Random sarcasm that does not reveal anything  
+7. Short hot takes that stop before the diagnosis gets interesting  
+
+---
+
+# 16. Activation prompt for future use
+
+Use the attached John Cutler Content Intelligence Playbook as the writing system for this post.
+
+Task:
+Write a LinkedIn post in John's strongest style.
+
+Topic:
+[insert topic]
+
+Goal:
+[build authority / provoke recognition / get saves / spark discussion / satirize a trend / diagnose a hidden org problem]
+
+Audience:
+[product leaders / transformation leaders / engineering leaders / operators inside messy companies]
+
+Rules:
+- Lead with a sharp reframe, painful observation, or recognizable parody
+- Name the real problem underneath the visible problem
+- Make the post feel lived-in and specific
+- Use bullets, dialogue, or a simple framework when helpful
+- Keep the writing scannable
+- Do not sound generic, inspirational, or corporate-safe
+- End with either a light question or no CTA at all
+
+---
+
+# 17. Prompt for serious diagnostic posts
+
+Write a LinkedIn post in the John Cutler style.
+
+Topic:
+[topic]
+
+Surface problem:
+[what people usually complain about]
+
+Deeper problem:
+[what is really going on]
+
+Audience:
+[audience]
+
+Make it:
+- sharp
+- systems-oriented
+- easy to scan
+- grounded in real organizational behavior
+- useful enough that a senior operator would save it
+
+---
+
+# 18. Prompt for satire posts
+
+Write a satirical LinkedIn post in the John Cutler style.
+
+Target:
+[AI panic / executive memo / founder mode / simplification theater / layoffs / planning nonsense]
+
+Rules:
+- make it painfully recognizable
+- exaggerate only slightly
+- use bullets or fake instructions
+- let the humor reveal the incentives underneath
+- avoid random jokes that do not connect to real organizational behavior
+
+---
+
+# 19. Final distillation
+
+If you remember only one thing from this playbook, remember this:
+
+John's best content works because it does not merely complain about dysfunction.
+
+It reveals the mechanism.
+
+And when he uses humor, the humor is not decoration.
+It is diagnosis in disguise.
+
+That is the formula:
+
+**recognition + reframe + mechanism + sharp delivery**
